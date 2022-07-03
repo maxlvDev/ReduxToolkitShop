@@ -1,0 +1,39 @@
+img {
+    max-width: 90%;
+}
+
+.product {
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgba(0, 0, 0, 0.125);
+    text-align: center;
+}
+
+.product_name {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.product_amount {
+    color: gray;
+}
+
+.product_price {
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.details {
+    background: #e5e9e9;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 5px 0px;
+    border: none;
+}
+

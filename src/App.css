@@ -1,0 +1,12 @@
+.App {
+  min-width: 80%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  background-color: #F8F9F9;
+  font-family: 'Open Sans', sans-serif;
+}
+

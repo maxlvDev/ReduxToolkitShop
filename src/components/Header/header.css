@@ -1,0 +1,19 @@
+.header {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.logo {
+    background-image: url(./logo.png);
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 50%;
+}

@@ -1,0 +1,31 @@
+.Counter {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background: rgb(242, 237, 231);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-size: 17px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.inc {
+    background: rgb(242, 237, 231);
+    border: none;
+    height: 17px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.dec {
+    background: rgb(242, 237, 231);
+    border: none;
+    height: 24px;
+    font-size: 17px;
+    cursor: pointer;
+}

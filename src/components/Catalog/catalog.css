@@ -1,0 +1,31 @@
+.catalog {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-gap : 10px;
+    padding-bottom: 50px;
+    width: 70%;
+    height: 700px;
+    min-width: 70%;
+}
+
+@media(max-width: 1324px) {
+    .catalog {
+        grid-template-columns: 300px 300px;
+    }
+}
+
+@media(max-width: 1048px) {
+    .catalog {
+        grid-template-columns: 400px;
+        width: 40%;
+    }
+}
+
+@media(max-width: 800px) {
+    .catalog {
+         height: 2500px;
+         margin-left: auto;
+         margin-right: auto;
+         justify-content: center;
+    }
+}      
